@@ -1,0 +1,24 @@
+Algoritmo Ejercicio9
+	Escribir 'Ingrese temperatura 1: '
+	Leer t1
+	Escribir 'Ingrese temperatura 2: '
+	Leer t2
+	contadort1 <- 0
+	contadort2 <- 0
+	acumuladort1 <- 0
+	acumuladort2 <- 0
+	Mientras (t1<>0) Y (t1>=5 Y t1<=15) Y (t1>=5 Y t1<=15) Hacer
+		contadort1 <- contadort1+1
+		acumuladort1 <- acumuladort1+t1
+		contadort2 <- contadort2+1
+		acumuladort2 <- acumuladort2+t2
+		Escribir 'Ingrese nueva temperatura 1: '
+		Leer t1
+		Escribir 'Ingrese nueva temperatura 2: '
+		Leer t2
+	FinMientras
+	promediot1 <- acumuladort1/contadort1
+	promediot2 <- acumuladort2/contadort2
+	Escribir 'El promedio de las tempareturas 1 es: ',promediot1
+	Escribir 'El promedio de las tempareturas 2 es: ',promediot2
+FinAlgoritmo
